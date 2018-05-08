@@ -13,37 +13,37 @@
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|    
 |bookId|int(10)|主键|否||图书号|
-|ISBN|varchar(10)| |否|||  
-|bookName|varchar(50)| |否|||
-|author|varchar(50)| |否|||  
-|publisher|varchar(50)| |否|||
-|price|float(10)| |否|||  
-|cnum|int(50)| |否|||
-|snum|int(50)| |否|||  
-|summary|varchar(50)| |是|||
-|photo|varbinary(3000)| |是|||
+|ISBN|varchar(10)| |否||国际标准书号|  
+|bookName|varchar(50)| |否||图书名|
+|author|varchar(50)| |否||作者|  
+|publisher|varchar(50)| |否||出版社|
+|price|float(10)| |否||价格|  
+|cnum|int(50)| |否||借出数|
+|snum|int(50)| |否||库存|  
+|summary|varchar(50)| |是||总数|
+|photo|varbinary(3000)| |是||图书图片|
 
 **1.2 读者表**
 
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|    
-|readerId|varchar(10)|主键|否|||
-|name|varchar(50)| |否|||  
-|password|varchar(10)| |否|||
-|sex|bit(1)| |否|||  
-|born|datetime(100)| |否|||
+|readerId|varchar(10)|主键|否||读者号|
+|name|varchar(50)| |否||用户账号|  
+|password|varchar(10)| |否||用户密码|
+|sex|bit(1)| |否||性别|  
+|born|datetime(100)| |否||生日|
 |spec|varchar(100)| |否|||  
 |num|int(100)| |否|||
-|photo|varbinary(3000)| |否|||  
+|photo|varbinary(3000)| |否||照片|  
 
 **1.3 图书管理员表**
 
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|    
-|bookAdminId|varchar(10)|主键|否|||
-|name|varchar(50)| |否|||  
-|password|varchar(10)| |否|||
-|sex|bit(1)| |否|||  
+|bookAdminId|varchar(10)|主键|否||管理员号|
+|name|varchar(50)| |否||管理员账号|  
+|password|varchar(10)| |否||管理员密码|
+|sex|bit(1)| |否||性别|  
 |born|datetime(100)| |否|||
 |photo|varbinary(3000)| |否|||  
 
@@ -51,9 +51,9 @@
 
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|    
-|superAdminId|varchar(10)|主键|否|||
-|name|varchar(50)| |否|||  
-|password|varchar(10)| |否|||
+|superAdminId|varchar(10)|主键|否||超级管理员号|
+|name|varchar(50)| |否||超级管理员账号|
+|password|varchar(10)| |否||超级管理员密码|
 |sex|bit(1)| |否|||  
 |born|datetime(100)| |否|||
 |photo|varbinary(3000)| |否|||  
@@ -62,12 +62,12 @@
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|    
 |id|int(10)|主键|否|||
-|readerId|varchar(10)|外键|否|||  
-|bookId|varchar(10)|外键|否|||
+|readerId|varchar(10)|外键|否||读者号|  
+|bookId|varchar(10)|外键|否||图书号|
 |ISBN|varchar(10)| |否|||  
 |lendConfirm|bit(1)| |否|||
 |returnRequest|bit(1)| |否|||  
-|ltime|datetime| |否|||  
+|ltime|datetime| |否||借书日期|  
 
 ## 2. 界面设计
 **2.1 借书界面设计**
