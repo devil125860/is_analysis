@@ -12,9 +12,9 @@
 
 |字段|类型|主键，外键|可以为空|约束|说明|
 |:-------:|:-------------:|:------:|:----:|:---:|:-----|    
-|bookId|int(10)|主键|否|||
-|ISBN|varchar(10)| |否|||  
-|bookName|varchar(50)| |否|||
+|bookId|int(10)|主键|否||图书号|
+|ISBN|varchar(10)| |否||ISBN|  
+|bookName|varchar(50)| |否||图书名|
 |author|varchar(50)| |否|||  
 |publisher|varchar(50)| |否|||
 |price|float(10)| |否|||  
