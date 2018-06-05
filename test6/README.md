@@ -7,7 +7,7 @@
 
 |学号|班级|姓名|照片|
 |:-------:|:-------------: | :----------:|:---:|
-|12345678|软件(本)15-4|赵卫东|![flow1](../myself.jpg)|
+|201510414105|软件(本)15-1|丁安琪|![flow1](../.jpg)|
 
 ## 1. 概述
 - 基于GitHub的实验管理平台的作用是在线管理实验成绩的Web应用系统。学生和老师的实验内容均存放在GitHUB
@@ -33,12 +33,12 @@
 - ### [参见数据库设计](./数据库设计.md)
 
 ## 6. 用例及界面详细设计
-- ### [“学生列表”用例](./用例/学生列表.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/index.html)
-- ### [“评定成绩”用例](./用例/评定成绩.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/评定成绩.html)
-- ### [“查看成绩”用例](./用例/查看成绩.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/查看成绩.html)
-- ### [“修改密码”用例](./用例/修改密码.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/顶部菜单.html)
-- ### [“修改用户信息”用例](./用例/修改用户信息.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/顶部菜单.html)
-- ### [“查看用户信息”用例](./用例/查看用户信息.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/顶部菜单.html)
-- ### [“登出”用例](./用例/登出.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/顶部菜单.html)
-- ### [“登录”用例](./用例/登录.md),[界面](https://zwdbox.github.io/is_analysis/test6/ui/登录.html)
+- ### [“学生列表”用例](./用例/学生列表.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/index.html)
+- ### [“评定成绩”用例](./用例/评定成绩.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/评定成绩.html)
+- ### [“查看成绩”用例](./用例/查看成绩.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/查看成绩.html)
+- ### [“修改密码”用例](./用例/修改密码.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“修改用户信息”用例](./用例/修改用户信息.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“查看用户信息”用例](./用例/查看用户信息.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“登出”用例](./用例/登出.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“登录”用例](./用例/登录.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/登录.html)
     
