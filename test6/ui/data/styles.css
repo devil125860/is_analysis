@@ -9,6 +9,8 @@
 }
 .box_1 {
 }
+.ellipse {
+}
 ._形状 {
   font-family:'Arial Normal', 'Arial';
   font-weight:400;
@@ -23,35 +25,41 @@
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:32px;
   text-align:left;
 }
 ._二级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:24px;
   text-align:left;
 }
 ._三级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:18px;
   text-align:left;
 }
 ._四级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:14px;
   text-align:left;
 }
 ._五级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
+  font-style:normal;
   text-align:left;
 }
 ._六级标题 {
   font-family:'Arial Normal', 'Arial';
   font-weight:bold;
+  font-style:normal;
   font-size:10px;
   text-align:left;
 }
@@ -80,6 +88,8 @@
   text-align:center;
 }
 .table_cell {
+}
+._连接线 {
 }
 .menu_item {
 }

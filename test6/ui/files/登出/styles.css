@@ -12,7 +12,8 @@
   position:absolute;
   z-index:0;
 }
-#u322_div {
+#u167_div {
+  border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
@@ -28,7 +29,8 @@
   font-size:20px;
   color:#009900;
 }
-#u322 {
+#u167 {
+  border-width:0px;
   position:absolute;
   left:7px;
   top:7px;
@@ -37,7 +39,8 @@
   font-size:20px;
   color:#009900;
 }
-#u323 {
+#u167_text {
+  border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
