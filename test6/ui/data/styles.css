@@ -9,6 +9,8 @@
 }
 .box_1 {
 }
+.box_3 {
+}
 .ellipse {
 }
 ._形状 {
@@ -21,6 +23,11 @@
   line-height:normal;
 }
 ._图片 {
+}
+.button {
+}
+.primary_button {
+  color:#FFFFFF;
 }
 ._一级标题 {
   font-family:'Arial Normal', 'Arial';
@@ -78,6 +85,18 @@
   color:#000000;
   text-align:left;
 }
+.text_area {
+  color:#000000;
+  text-align:left;
+}
+.droplist {
+  color:#000000;
+  text-align:left;
+}
+.list_box {
+  color:#000000;
+  text-align:left;
+}
 .checkbox {
   text-align:left;
 }
@@ -87,6 +106,9 @@
 .html_button {
   text-align:center;
 }
+.tree_node {
+  text-align:left;
+}
 .table_cell {
 }
 ._连接线 {
@@ -95,4 +117,8 @@
 }
 .marker {
   color:#FFFFFF;
+}
+.flow_shape {
+}
+.icon {
 }
