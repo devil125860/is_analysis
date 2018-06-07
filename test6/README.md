@@ -34,8 +34,10 @@
 
 ## 6. 用例及界面详细设计
 - ### [“学生列表”用例](./用例/学生列表.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/index.html)
-- ### [“评定成绩”用例](./用例/评定成绩.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/评定成绩.html)
-- ### [“查看成绩”用例](./用例/查看成绩.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/查看成绩.html)
+- ### [“选择学期”用例](./用例/选择学期.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
+- ### [“查看课程”用例](./用例/查看课程.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/查看课程.html)
+- ### [“查看实验”用例](./用例/查看实验.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/查看课程.html)
+- ### [“查看成绩”用例](./用例/查看成绩.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/查看课程.html)
 - ### [“修改密码”用例](./用例/修改密码.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“修改用户信息”用例](./用例/修改用户信息.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)
 - ### [“查看用户信息”用例](./用例/查看用户信息.md),[界面](https://devil125860.github.io/is_analysis/test6/ui/顶部菜单.html)

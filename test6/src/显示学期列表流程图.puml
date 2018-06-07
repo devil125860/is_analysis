@@ -1,0 +1,21 @@
+@startuml
+skinparam titleBorderRoundCorner 15
+skinparam titleBorderThickness 2
+skinparam titleBorderColor #Black
+skinparam titleFontSize 24
+Title 显示学期列表流程图
+
+
+actor 主页面顶部菜单
+actor API服务
+database 数据库存储
+
+== 主页面 ==
+主页面顶部菜单->API服务:传入student_id
+API服务->API服务:判断student_id的合法性
+API服务->数据库存储:访问ENROLLMENT_YEAR信息字段
+数据库存储->API服务:返回ENROLLMENT_YEAR信息
+API服务->主页面顶部菜单:返回所修学期信息
+== 登录后正常使用，\n每次请求都会访问API==
+
+@enduml
